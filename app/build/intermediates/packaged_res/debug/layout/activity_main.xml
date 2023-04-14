@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/mTvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animal Farm"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="#1492F6"
+        android:id="@+id/mTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello,I'm a cat. Hello, I'm a cat Hello, I'm a cat Hello, I'm a cat Hello, I'm a cat Hello, I'm a cat Hello,I'm a cat. Hello,I'm a cat Hello, I'm a cat. Hello,I'm a cat.Hello,I'm a cat.Hello,I'm a cat.Hello,I'm a cat. Hello,I'm a cat.Hello,I'm a cat.Hello, I'm a cat.Hello, I'm a cat. " />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#09670C"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register" />
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#0066CC"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/kenya" />
+</LinearLayout>
